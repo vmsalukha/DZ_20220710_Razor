@@ -1,0 +1,174 @@
+﻿@page
+@model DZ_20220710_Razor.Pages.CountriesModel
+@{
+}
+<link rel="stylesheet" href="~/css/site.css" />
+<div class="taxonomy-description">
+    <p>Список туристичних країн світу. Детальна інформація.</p>
+    <h2>Країни світу</h2>
+    <table style="border-collapse: collapse;width: 100%">
+        <tbody>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Країна</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Столиця</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Площа,</span>км2</td>
+                <td style="width: 20%"><span style="font-size: 16px">Населення,</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Континент</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Абхазія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Сухум</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">8 600</span></td>
+                <td style="width: 20%"><span style="font-size: 16px"> 243 564</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Азія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Австралія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Канберра</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">7 686 850</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">24 238 610</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Австралія та Океанія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Австрія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Відень</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">83 858</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">8 741 753</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Європа</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Азербайджан</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Баку</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">86 600</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">9 705 600</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Азія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Албанія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Тирана </span></td>
+                <td style="width: 20%"><span style="font-size: 16px">28 748</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">2 866 026</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Європа</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Алжир</span></td>
+                <td style="width: 20%"><span style="font-size: 16px"> Алжир</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">2 381 740</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">39 813 722</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Африка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Ангола</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Луанда</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">1 246 700</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">25 831 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Африка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Андорра</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Андорра-ла-Велья</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">468</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">78 014</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Європа</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Антигуа і Барбуда</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Сент-Джонс</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">442</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">93 581</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Північна Америка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Аргентина</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Буенос-Айрес</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">2 766 890</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">43 847 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Південна Америка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Вірменія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Єреван</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">29 741</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">2 995 100</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Азія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Афганістан</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Кабул</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">647 500</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">29 822 848</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Азія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Багамські Острови</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Нассау </span></td>
+                <td style="width: 20%"><span style="font-size: 16px">13 940</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">393 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Північна Америка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Бангладеш</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Дакка</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">144 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">160 221 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Азія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Барбадос</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Бріджтаун</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">430</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">291 495</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Північна Америка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Бахрейн</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Манама</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">701</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">1 397 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Азія</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Беліз</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Бельмопан</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">22 966</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">377 968</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Північна Америка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Білорусь</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Мінськ</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">207 595</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">9 498 400</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Європа</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Бельгія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Брюссель</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">30 528</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">11 250 585</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Європа</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Бенін</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Порто-Ново</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">112 620</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">11 167 000</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Африка</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Болгарія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Софія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">110 910</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">7 153 784</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Європа</span></td>
+            </tr>
+            <tr>
+                <td style="width: 20%"><span style="font-size: 16px">Болівія</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Сукре</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">1 098 580</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">10 985 059</span></td>
+                <td style="width: 20%"><span style="font-size: 16px">Південна Америка</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <p>Random Letter:<a href="Restaurant">Restaurant</a>.</p>
+   
+    <h1 class="display-4">Welcome</h1>
+    <p>Current day of the year(поточний день в році): <a >@Model.DayYear</a></p>
+    <p>Random Letter: <a >@Model.RandLetter</a>.</p>
+
+</div>
